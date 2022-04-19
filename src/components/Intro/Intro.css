@@ -1,5 +1,7 @@
 .intro {
-  padding: 0 148px 0 0;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding-left: 148px;
 }
 
 .intro .container {

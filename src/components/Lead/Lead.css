@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+.lead .figcaption {
+  margin: 0;
+}
+
 .lead .title {
   font-weight: 900;
   font-size: 96px;
