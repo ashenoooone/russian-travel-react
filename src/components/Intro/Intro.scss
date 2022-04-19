@@ -1,0 +1,31 @@
+.intro {
+  padding: 0 148px 0 0;
+
+  .container {
+    max-width: 690px;
+  }
+
+  .title {
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    margin: 0;
+  }
+  .par {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    margin: 40px 0 33px;
+  }
+  .list {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+  }
+  .item {
+    margin: 0;
+  }
+}

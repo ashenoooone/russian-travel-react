@@ -1,0 +1,34 @@
+.intro {
+  padding: 0 148px 0 0;
+}
+
+.intro .container {
+  max-width: 690px;
+}
+
+.intro .title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  margin: 0;
+}
+
+.intro .par {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  margin: 40px 0 33px;
+}
+
+.intro .list {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
+.intro .item {
+  margin: 0;
+}

@@ -1,0 +1,31 @@
+.lead {
+  padding: 0 148px 92px;
+}
+
+.lead .image {
+  width: 100%;
+}
+
+.lead .title {
+  font-weight: 900;
+  font-size: 96px;
+  text-align: center;
+  line-height: 100px;
+  margin: 0;
+}
+
+.lead .subtitle {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin: 32px 0 64px;
+}
+
+.lead .caption {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 8px 0 0;
+  text-transform: uppercase;
+}

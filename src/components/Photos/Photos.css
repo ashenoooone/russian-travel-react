@@ -1,0 +1,16 @@
+.photos {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  padding: 92px 48px;
+  gap: 16px;
+  -ms-grid-columns: (minmax(284px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  -ms-grid-rows: (213px)[auto-fit];
+      grid-template-rows: repeat(auto-fit, 213px);
+}
+
+.photos .image {
+  width: 100%;
+  height: 100%;
+}
