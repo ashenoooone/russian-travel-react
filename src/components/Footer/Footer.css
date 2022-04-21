@@ -12,12 +12,6 @@
   padding-bottom: 24px;
 }
 
-@media screen and (max-width: 1279px) {
-  .footer {
-    padding: 92px 48px 24px;
-  }
-}
-
 .footer .copyright {
   margin: 0;
 }
@@ -42,4 +36,16 @@
 
 .footer .links a:hover {
   opacity: 0.5;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer {
+    padding: 92px 48px 24px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    padding: 88px 24px 24px;
+  }
 }

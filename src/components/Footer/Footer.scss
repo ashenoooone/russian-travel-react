@@ -6,9 +6,7 @@
   width: 100%;
   padding-top: 92px;
   padding-bottom: 24px;
-  @media screen and (max-width: 1279px) {
-    padding: 92px 48px 24px;
-  }
+
   .copyright {
     margin: 0;
   }
@@ -27,5 +25,11 @@
         opacity: 0.5;
       }
     }
+  }
+  @media screen and (max-width: 1279px) {
+    padding: 92px 48px 24px;
+  }
+  @media screen and (max-width: 1023px) {
+    padding: 88px 24px 24px;
   }
 }

@@ -6,6 +6,10 @@
     padding-left: 48px;
   }
 
+  @media screen and (max-width: 1023px) {
+    padding-left: 24px;
+  }
+
   .container {
     max-width: 690px;
   }

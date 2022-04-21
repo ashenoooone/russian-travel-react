@@ -6,6 +6,9 @@
   @media screen and (max-width: 1279px) {
     padding: 0 48px 92px;
   }
+  @media screen and (max-width: 1023px) {
+    padding: 0 24px 90px;
+  }
 }
 .card {
   display: grid;
@@ -16,6 +19,7 @@
   grid-template-rows: auto minmax(460px, 1fr);
   row-gap: 48px;
   column-gap: 40px;
+
   .title {
     font-weight: 900;
     font-size: 72px;
@@ -56,9 +60,26 @@
     width: 100%;
     height: 100%;
     max-height: 460px;
+    max-width: 460px;
   }
   .url-container {
     grid-area: url;
     align-self: flex-end;
+  }
+  @media screen and (max-width: 1023px) {
+    column-gap: 28px;
+    grid-template-columns: minmax(340px, 1fr) auto;
+    grid-template-rows: auto minmax(340px, 1fr);
+    .image {
+      max-height: 340px;
+    }
+    .title {
+      font-size: 42px;
+      line-height: 46px;
+    }
+    .text {
+      font-size: 16px;
+      line-height: 163%;
+    }
   }
 }

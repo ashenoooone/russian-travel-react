@@ -24,12 +24,6 @@
   transition: all 1s linear;
 }
 
-@media screen and (max-width: 1279px) {
-  .cover {
-    padding: 0;
-  }
-}
-
 .cover::before {
   content: '';
   -webkit-transition: all 0.2s ease-in-out;
@@ -59,4 +53,25 @@
   max-width: 360px;
   font-size: 18px;
   line-height: 22px;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    min-height: 640px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    min-height: 480px;
+  }
+  .cover .title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+  .cover .subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }

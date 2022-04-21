@@ -1,11 +1,5 @@
 .lead {
-  padding: 0 148px 92px;
-}
-
-@media screen and (max-width: 1279px) {
-  .lead {
-    padding: 0 48px 92px;
-  }
+  padding-bottom: 92px;
 }
 
 .lead .image {
@@ -13,6 +7,7 @@
 }
 
 .lead .figcaption {
+  padding: 0 148px;
   margin: 0;
 }
 
@@ -38,4 +33,25 @@
   width: max-content;
   margin: 8px 0 0;
   text-transform: uppercase;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead .figcaption {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    padding-bottom: 88px;
+  }
+  .lead .figcaption {
+    padding: 0;
+  }
+  .lead .caption {
+    margin-left: 24px;
+  }
 }
