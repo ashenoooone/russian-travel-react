@@ -12,6 +12,9 @@
   text-align: center;
   position: relative;
   transition: all 1s linear;
+  @media screen and (max-width: 1279px) {
+    padding: 0;
+  }
   &::before {
     content: '';
     transition: all 0.2s ease-in-out;

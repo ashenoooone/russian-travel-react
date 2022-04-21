@@ -2,6 +2,12 @@
   padding: 0 148px 92px;
 }
 
+@media screen and (max-width: 1279px) {
+  .lead {
+    padding: 0 48px 92px;
+  }
+}
+
 .lead .image {
   width: 100%;
 }

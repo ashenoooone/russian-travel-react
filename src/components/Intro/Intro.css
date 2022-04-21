@@ -4,6 +4,12 @@
   padding-left: 148px;
 }
 
+@media screen and (max-width: 1279px) {
+  .intro {
+    padding-left: 48px;
+  }
+}
+
 .intro .container {
   max-width: 690px;
 }

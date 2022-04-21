@@ -24,6 +24,12 @@
   transition: all 1s linear;
 }
 
+@media screen and (max-width: 1279px) {
+  .cover {
+    padding: 0;
+  }
+}
+
 .cover::before {
   content: '';
   -webkit-transition: all 0.2s ease-in-out;

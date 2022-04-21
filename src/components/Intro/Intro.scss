@@ -2,6 +2,10 @@
   align-self: flex-start;
   padding-left: 148px;
 
+  @media screen and (max-width: 1279px) {
+    padding-left: 48px;
+  }
+
   .container {
     max-width: 690px;
   }
