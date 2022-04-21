@@ -11,6 +11,7 @@
   margin: 0 auto;
   color: #fff;
   background-color: #2a2c2f;
+  padding: 0;
 }
 
 .page {
@@ -23,4 +24,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 0;
+  padding: 0;
 }

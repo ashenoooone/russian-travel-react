@@ -13,6 +13,7 @@ $bgcolor: #2a2c2f;
   margin: 0 auto;
   color: #fff;
   background-color: #2a2c2f;
+  padding: 0;
 }
 
 .page {
@@ -20,4 +21,6 @@ $bgcolor: #2a2c2f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
