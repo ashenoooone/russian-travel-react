@@ -4,18 +4,6 @@
   padding-left: 148px;
 }
 
-@media screen and (max-width: 1279px) {
-  .intro {
-    padding-left: 48px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .intro {
-    padding-left: 24px;
-  }
-}
-
 .intro .container {
   max-width: 690px;
 }
@@ -45,4 +33,34 @@
 
 .intro .item {
   margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    padding: 0 16px;
+  }
+  .intro .title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .intro .par {
+    font-size: 16px;
+    line-height: 163%;
+  }
+  .intro .list {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }

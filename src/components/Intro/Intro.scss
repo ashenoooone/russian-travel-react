@@ -2,14 +2,6 @@
   align-self: flex-start;
   padding-left: 148px;
 
-  @media screen and (max-width: 1279px) {
-    padding-left: 48px;
-  }
-
-  @media screen and (max-width: 1023px) {
-    padding-left: 24px;
-  }
-
   .container {
     max-width: 690px;
   }
@@ -36,5 +28,27 @@
   }
   .item {
     margin: 0;
+  }
+  @media screen and (max-width: 1279px) {
+    padding-left: 48px;
+  }
+
+  @media screen and (max-width: 1023px) {
+    padding-left: 24px;
+  }
+  @media screen and(max-width:767px) {
+    padding: 0 16px;
+    .title {
+      font-size: 32px;
+      line-height: 35px;
+    }
+    .par {
+      font-size: 16px;
+      line-height: 163%;
+    }
+    .list {
+      font-size: 12px;
+      line-height: 18px;
+    }
   }
 }

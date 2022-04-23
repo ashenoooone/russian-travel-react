@@ -9,6 +9,9 @@
   @media screen and (max-width: 1023px) {
     padding: 0 24px 90px;
   }
+  @media screen and (max-width: 767px) {
+    padding: 0 0 66px;
+  }
 }
 .card {
   display: grid;
@@ -47,6 +50,7 @@
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 2px;
+    margin: 0 0 12px;
     color: #aaaaaa;
   }
   .text-container {
@@ -80,6 +84,35 @@
     .text {
       font-size: 16px;
       line-height: 163%;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    grid-template-areas:
+      'title'
+      'url'
+      'image'
+      'text';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    row-gap: 32px;
+    .title {
+      font-size: 32px;
+      line-height: 35px;
+      padding: 0 16px;
+    }
+    .text {
+      font-size: 16px;
+      line-height: 163%;
+      padding: 0 16px;
+    }
+    .url-container {
+      padding: 0 16px;
+    }
+    .image {
+      min-width: 320px;
+      min-height: 320px;
+      width: 100%;
+      max-width: 100%;
     }
   }
 }
