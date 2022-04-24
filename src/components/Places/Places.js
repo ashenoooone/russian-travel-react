@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './Places.css';
+import { motion } from 'framer-motion';
 
 const data = [
   {
@@ -55,6 +56,7 @@ const Places = () => {
         return (
           <Item
             id={index}
+            key={index}
             title={item.title}
             url={item.link}
             image={item.url}
@@ -68,26 +70,82 @@ const Places = () => {
 };
 
 export default Places;
+
+const left = {
+  hidden: {
+    x: -100,
+    opacity: 0,
+  },
+  visible: {
+    x: 0,
+    opacity: 1,
+  },
+};
+
+const right = {
+  hidden: {
+    x: 100,
+    opacity: 0,
+  },
+  visible: {
+    x: 0,
+    opacity: 1,
+  },
+};
+
 const Item = ({ title, url, image, text1, text2 = null }) => {
-  console.log(image);
   return (
     <div className='card'>
-      <h2 className='title'>{title}</h2>
-      <img src={image} alt={title} className='image' />
-      <div className='url-container'>
+      <motion.h2
+        className='title'
+        variants={left}
+        initial='hidden'
+        whileInView='visible'
+        viewport={{ amount: 0.4, once: true }}
+      >
+        {title}
+      </motion.h2>
+      <motion.img
+        initial='hidden'
+        whileInView='visible'
+        variants={left}
+        viewport={{ amount: 0.4, once: true }}
+        src={image}
+        alt={title}
+        className='image'
+      />
+      <motion.div
+        className='url-container'
+        variants={right}
+        initial='hidden'
+        whileInView='visible'
+        viewport={{ amount: 0.4, once: true }}
+      >
         <p className='url-text'>URL</p>
         <a href='#' className='url'>
           {url}
         </a>
-      </div>
+      </motion.div>
       {text2 ? (
-        <div className='text-container'>
+        <motion.div
+          className='text-container'
+          variants={right}
+          initial='hidden'
+          whileInView='visible'
+          viewport={{ amount: 0.4, once: true }}
+        >
           <p className='text'>{text1}</p> <p className='text'>{text2}</p>
-        </div>
+        </motion.div>
       ) : (
-        <div className='text-container'>
+        <motion.div
+          className='text-container'
+          variants={right}
+          initial='hidden'
+          whileInView='visible'
+          viewport={{ amount: 0.4, once: true }}
+        >
           <p className='text'>{text1}</p>
-        </div>
+        </motion.div>
       )}
     </div>
   );
