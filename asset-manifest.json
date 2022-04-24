@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.7044f5b9.css",
-    "main.js": "/static/js/main.8b14396f.js",
-    "static/js/787.81db8906.chunk.js": "/static/js/787.81db8906.chunk.js",
-    "static/media/__background.jpg": "/static/media/__background.6084bfa1695a2a1b0492.jpg",
-    "static/media/lead__image.jpg": "/static/media/lead__image.6fb34bc575bf809ac18f.jpg",
-    "static/media/__logo.svg": "/static/media/__logo.367364f5a56274ea792b4af2a059dd02.svg",
-    "index.html": "/index.html",
-    "main.7044f5b9.css.map": "/static/css/main.7044f5b9.css.map",
-    "main.8b14396f.js.map": "/static/js/main.8b14396f.js.map",
-    "787.81db8906.chunk.js.map": "/static/js/787.81db8906.chunk.js.map"
+    "main.css": "/russian-travel-react/static/css/main.44135d02.css",
+    "main.js": "/russian-travel-react/static/js/main.db81e439.js",
+    "static/js/787.81db8906.chunk.js": "/russian-travel-react/static/js/787.81db8906.chunk.js",
+    "static/media/__background.jpg": "/russian-travel-react/static/media/__background.6084bfa1695a2a1b0492.jpg",
+    "static/media/lead__image.jpg": "/russian-travel-react/static/media/lead__image.6fb34bc575bf809ac18f.jpg",
+    "static/media/__logo.svg": "/russian-travel-react/static/media/__logo.367364f5a56274ea792b4af2a059dd02.svg",
+    "index.html": "/russian-travel-react/index.html",
+    "main.44135d02.css.map": "/russian-travel-react/static/css/main.44135d02.css.map",
+    "main.db81e439.js.map": "/russian-travel-react/static/js/main.db81e439.js.map",
+    "787.81db8906.chunk.js.map": "/russian-travel-react/static/js/787.81db8906.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7044f5b9.css",
-    "static/js/main.8b14396f.js"
+    "static/css/main.44135d02.css",
+    "static/js/main.db81e439.js"
   ]
 }
